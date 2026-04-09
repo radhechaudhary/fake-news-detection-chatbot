@@ -10,9 +10,7 @@ from typing_extensions import TypedDict, Annotated
 from flask import Flask, jsonify, request
 from typing import List, Union
 
-os.environ["GROQ_API_KEY"] = "................"
-os.environ["TAVILY_API_KEY"] = "................."
-os.environ["GOOGLE_API_KEY"] = "***************"
+
 
 
 
