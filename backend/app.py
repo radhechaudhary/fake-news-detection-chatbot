@@ -9,10 +9,14 @@ from langgraph.graph.message import add_messages
 from typing_extensions import TypedDict, Annotated
 from flask import Flask, jsonify, request
 from typing import List, Union
+from dotenv import load_dotenv
 
-os.environ["GROQ_API_KEY"] = "................"
-os.environ["TAVILY_API_KEY"] = "................."
-os.environ["GOOGLE_API_KEY"] = "***************"
+
+load_dotenv() 
+
+os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
+os.environ["TAVILY_API_KEY"] = os.getenv("TAVILY_API_KEY")
+os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
 
 
 
