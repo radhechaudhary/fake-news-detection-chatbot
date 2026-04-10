@@ -206,9 +206,3 @@ Explanation: Web sources contradict the claim...
 ## ⭐ Contribute
 
 Feel free to fork, improve, and submit PRs!
-
----
-
-## 📜 License
-
-MIT License
